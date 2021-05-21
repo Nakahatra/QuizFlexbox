@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+    --poppins-weight-100: 100;
+    --poppins-weight-300: 300;
+    --poppins-weight-700: 700;
+    --poppins-weight-900: 900;
+    --bg-color: #edf2f4;
+    --bg-calculator: #e9c46a;
+    --primary-color: #81C3D7;
+    --dark-color: #3d3d3d;
+    --light-color: #ffe5d9;
+    --btn-color: #8ecae6;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-poppins);
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-parent{
+    /* background-color: var(--bg-color); */
+    padding: 40px;
+}
+
+#box-parent .subscription-cards .card{
+    justify-content: space-around;
+    margin-right: 10px;
+    /* border: 1px solid black; */
+    background-color: var(---color);
+    padding: 20px;
+    box-shadow: 5px 5px 30px black;
+}
+
+#box-parent .box-header p{
+    color: var(--dark-color);
+    font-weight: var(--poppins-weight-900);
+    font-size: 40px;
+    text-align: center;
+}
+
+#box-parent .bill-formate{
+    text-align: center;
+
+}
+
+#box-parent .bill-formate a{
+    color: var(--dark-color);
+    text-decoration: none;
+    font-weight: var(--poppins-weight-900);
+}
+
+#box-parent .bill-formate a:last-child{
+    color: #8e9aaf;
+}
+
+#box-parent .subscription-cards .card{
+    margin: 40px;
+}
+
+#box-parent .subscription-cards {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: var(--light-color); */
+    margin: 40px;
+}
+
+
+#box-parent .subscription-cards .card .header p{
+    color: var(--dark-color);
+    font-weight: var(--poppins-weight-900);
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 25px;
+}
+
+#box-parent .subscription-cards .card .member-count{
+    font-weight: var(--poppins-weight-700);
+    color: var(--dark-color);
+    padding-bottom: 10px;
+}
+
+#box-parent .subscription-cards .card .cost p{
+    text-align: center;
+    color: var(--dark-color);
+    font-weight: var(--poppins-weight-700);
+}
+
+#box-parent .subscription-cards .card .cost :last-child{
+    color: #8e9aaf;
+    font-weight: var(--poppins-weight-900);
+}
+
+#box-parent .footer-text {
+    text-align: center;
+
+}
+
+#box-parent .footer-text p{
+    font-weight: var(--poppins-weight-900);
+    color: var(--dark-color);
+    font-size: 30px;
+}
+
+
+#box-parent .footer-text{
+    padding: 20px;
+}
+
+#box-parent .footer-text a{
+    background-color: var(--btn-color);
+    text-decoration: none;
+    color: var(--dark-color);
+    font-weight: var(--poppins-weight-700);
+    padding: 10px 40px ;
+    border-radius: 10px;
+    /* margin-top: 100px; */
+}
